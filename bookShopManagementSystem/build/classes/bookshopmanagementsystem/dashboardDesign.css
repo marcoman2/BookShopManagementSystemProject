@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 8, 22, 3:25:42 PM
+    Author     : WINDOWS 10
+*/
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#ff496a;
+}
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;
+}
+.nav-form{
+    -fx-background-color:linear-gradient(to top right, #3c2c21, #93773e);
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+    -fx-alignment: CENTER-LEFT;
+}
+.sign-out{
+    -fx-background-color: #477859;
+    -fx-cursor:hand;
+    -fx-background-radius: 20px;
+}
+.sign-out:hover{
+    -fx-background-color: #58ae78;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 8,0,0,0);
+}
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+.card{
+    -fx-background-color: linear-gradient(to right, #294c46, #2d7256);
+    -fx-background-radius: 4px;
+}
+.add-btn{
+    -fx-background-color: #39556b;
+    -fx-background-radius: 4px;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.add-btn:hover{
+    -fx-background-color: #4679a1;
+}
+.update-btn{
+    -fx-background-color: #386858;
+    -fx-background-radius: 4px;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.update-btn:hover{
+    -fx-background-color: #49a183;
+}
+.clear-btn{
+    -fx-background-color: #82467e;
+    -fx-background-radius: 4px;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.clear-btn:hover{
+    -fx-background-color: #a4479e;
+}
+.delete-btn{
+    -fx-background-color: #8c2c32;
+    -fx-background-radius: 4px;
+    -fx-cursor:hand;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+}
+.delete-btn:hover{
+    -fx-background-color: #b5323b;
+}
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 2px;
+    -fx-font-family: Tahoma;
+    -fx-border-color:#000;
+    -fx-border-radius: 2px;
+    -fx-border-width: .4px;
+}
+.textfield:focused{
+    -fx-border-color:linear-gradient(to top right, #3c2c21, #93773e);
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+}
+.search{
+    -fx-background-color: transparent;
+    -fx-font-size: 13px;
+    -fx-font-family: Arial;
+    -fx-border-color: linear-gradient(to top right, #3c2c21, #93773e);
+    -fx-border-radius: 4px;
+    -fx-border-width: .8px;
+    -fx-padding: 0px 0px 0px 28px;
+}
+.search:focused{
+    -fx-border-width: 1.5px;
+}
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color: linear-gradient(to top right, #3c2c21, #93773e);
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+    -fx-padding: 0px;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to top right, #3c2c21, #93773e);
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+}
+.info{
+    -fx-background-color:linear-gradient(to top right, #3c2c21, #93773e);
+    -fx-background-radius: 0 8px 8px 0;
+}
+.info-label{
+    -fx-background-color: #fff;
+    -fx-background-radius: 4px;
+    -fx-padding: 0 0 0 5px;
+}
